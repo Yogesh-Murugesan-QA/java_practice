@@ -6,7 +6,7 @@ public class reverseLastString {
     String reversedlast="";
     for (int i=lastword.length()-1; i>=0;i--){
         reversedlast += lastword.charAt(i);
-    }git
+    }
     // Replace last word
     words[words.length-1]= reversedlast;
     String result= String.join(" ",words);
